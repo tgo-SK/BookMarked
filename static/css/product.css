@@ -1,0 +1,211 @@
+/************************Google font == Didact Gothic**************/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Didact+Gothic&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #f0f0f0;
+	font-family: 'Exo', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Trispace', sans-serif;
+    font-size: 16px;
+    color: #292929;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+.section-bg
+{
+    background:#fff2e6;
+    padding: 20px 0;
+}
+.section-title
+{
+    margin-bottom: 25px;
+}
+.section-title h1
+{
+    position: relative;
+	margin-left: 420px;
+    font-size: 50px;
+    line-height: 1.4;
+    font-weight: 800;
+	color:#331a00;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-transform: capitalize;
+    display:inline-block;
+	font-family: 'Exo', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Trispace', sans-serif;
+}
+.single-product
+{	
+    box-shadow: inset -2px -2px 20px #331a00,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.single-product .product-thumb
+{
+    margin-bottom: 20px;
+}
+img
+{
+    display: inline-block;
+    max-width: 100%;
+	height:300px;
+	width:500px;
+
+}
+.single-product .product-title
+{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.single-product .product-title h3
+{
+    font-family: "Didact Gothic",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.single-product .product-title h3 a
+{
+    color:#331a00;
+    text-decoration: none;
+}
+.single-product .product-title h3 a:hover
+{
+     
+    color:#331a00;
+}
+.single-product:hover
+{
+    box-shadow:-2px -2px 30px #331a00,
+          -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+          2px 2px 8px rgba(0,0,0,0.15); 
+}
+
+.product-btns
+{
+    display: flex;
+    justify-content: center;
+}
+
+a
+{	
+	font-family: 'Chivo', sans-serif;
+	font-family: 'Ropa Sans', sans-serif;
+	font-family: 'Viga', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #331a00;
+}
+
+.btn-small
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 32px;
+    border-radius: 50px;
+    box-shadow:inset -2px -2px 8px#331a00,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    transition: 0.7s;
+}
+
+.btn-round
+{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px#331a00,
+     -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+     2px 2px 8px rgba(0,0,0,0.15);
+
+}
+.btn-small:hover
+{	
+    box-shadow: -2px -2px 20px#331a00,
+     -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+     2px 2px 8px rgba(0,0,0,0.15);
+    color: #331a00;
+    text-decoration: none;
+}
+.btn-round:hover
+{
+    box-shadow:inset -2px -2px 20px #331a00,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    color:#331a00;
+}
+
+.button-center
+{
+    justify-content: center;
+    text-align: center;
+}
+
+.bttn-def
+{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 14px 42px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: -2px -2px 20px #331a00,
+     -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+     2px 2px 8px rgba(0,0,0,0.15);
+     transition: 0.4s;
+     font-family:"Didact Gothic", sans-serif ;
+	 
+
+}
+
+.bttn-def:hover
+{
+    color: #331a00;
+    box-shadow:inset -2px -2px 20px#331a00,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+     color: #331a00;
+}
+.bttn-def:hover span
+{
+    display: inline-block;
+    transform: scale(0.98);
+}
+
+
+
+
+
+

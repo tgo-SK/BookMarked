@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+	font-family: 'JetBrains Mono', monospace;
+	font-family: 'Lato', sans-serif;
+}
+body{
+    line-height: 1.5;
+	background: #fff;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.card-wrapper img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    height:50%;
+    width: 100%;
+}
+.img-showcase img{
+    margin-top: 20px;
+    width: 35%;
+	height:auto;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 0rem 0rem;
+	position: absolute;
+	top: 16%;	
+}
+.product-title{
+    font-size: 3rem;
+    font-weight: 700;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.product-title1{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+}
+.product-price{
+    margin: 0rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price p{
+	font-size:20px;
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price span{
+	color: red;
+    text-decoration: line-through;
+}
+.new-price span{
+	color: blue;
+}
+.product-detail h2{
+    text-transform: capitalize;
+	text-decoration:underline;
+	padding-top:10px;
+	font-size:25px;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 20px;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 0rem 0;
+    font-size: 22px;
+}
+.product-detail ul li{
+    margin:0;
+    list-style: none;
+    margin-right:100px ;
+    font-weight: 620;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+	text-decoration:none;
+}
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color:#fff;
+	width:180px;
+	height:50px;
+	font-size:20px;
+	font-weight: bold;
+
+}
+.purchase-info .btn:first-of-type{
+    background: #f53838;;
+}
+.purchase-info .btn:last-of-type{
+    background: #f53838;
+}
+.purchase-info .btn:hover{
+    background:red;
+	color:white;
+    opacity: 0.9;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    background: #000;
+    border-color: transparent;
+    color: #fff; 
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}

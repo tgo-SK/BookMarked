@@ -1,0 +1,235 @@
+body{
+	background-image: url('../images/back.jpg'); 
+	overflow-x: hidden;
+}
+
+.container{
+	background: #fff;
+	width: 80%;
+	height: 90vh;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 5%;
+	box-shadow: 2px 5px 20px rgb(119,119,119,.5);
+}
+
+.leftbox{
+	float: left;
+	left: 5%;
+	top: -2.5%;
+	position: absolute;
+	width: 10%;
+	height: 105%;
+	background: #331a00;
+	box-shadow: 3px 3px 10px rgb(119,119,119,.5);
+	border : .1em solid #fff;
+}
+
+nav a{
+	list-style: none;
+	padding: 35px;
+	color: #fff;
+	font-size: 2.1em;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	display: block;
+	transition: all .3s ease-in-out;
+}
+
+nav a:hover {
+	color: #996633;
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+nav a:first-child{
+	margin-top: 7px;
+}
+
+nav a.active{
+	color: #996633;
+}
+
+.rightbox{
+	width: 60%;
+	margin-left: 20%;
+	/*padding-top: 5px ;*/ 
+}
+
+.tabshow{
+	transition: all .5s ease-in;
+	width: 80%;
+	position: absolute;
+}
+
+.h1{
+	font-family: 'Exo', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Trispace', sans-serif;
+	color: #331a00;
+	font-size: 55px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	display: block;
+}
+
+h2{
+	height: 10px;
+	color :#331a00;
+	font-family: 'Chivo', sans-serif;
+	font-family: 'Ropa Sans', sans-serif;
+	font-family: 'Viga', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom: 13px;
+}
+
+.input, p{
+	border: 0;
+	border-bottom: 1px solid #331a00;
+	width: 80%;
+	font-family: 'Trispace', sans-serif;
+	font-size: 1.2em;
+	padding: 7px 0;
+	color: #070707;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+span{
+	font-size: .7em;
+	color: #777;
+}
+
+.btn{
+	height: 50px;
+	width: 140px;
+	font-family: 'Signika', sans-serif;
+	font-family: 'Trispace', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	border : 0;
+	color: #fff;
+	background: #331a00;
+	padding: 7px 15px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,.2);
+	cursor: pointer;
+	margin-top: 10px; 
+	display: block;
+}
+
+.tabshow{
+	display: none;
+}
+
+.inppic{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 0px ;
+	margin: auto;
+	outline: none;
+	font-size: 0px;
+	color: #ccc;
+	position: relative;
+	left: 31%;
+	background-image: url('/BookMarked/showprofpic.do'); 
+	background-size: cover;
+}
+
+.propic{
+	max-height: 100px;
+	max-width: 100px;
+	overflow: hidden;
+	border-radius: 50px;
+	position: relative;
+	left: -85%;
+}
+
+#popup
+{
+position: fixed;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 400px;
+padding: 50px;
+box-shadow: 0 5px 30px rgba(0,0,0,.30);
+background: #fff;
+visibility: hidden;
+opacity: 0;
+transition: 0.5s;
+}
+#popup.active{
+top: 50%;
+visibility: visible;
+opacity: 1;
+transition: 0.5s;
+}
+
+#blur.active{
+filter: blur(20px);
+pointer-events: none;
+user-select: none;
+}
+
+.close{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: -300px;
+	right: -410px;
+	/*top: -400px;
+	right: -410px;*/
+}
+.close:hover{
+	cursor: pointer;
+}
+
+.sub{
+	margin: 25px auto;
+	display: none;
+}
+
+
+
+#popup1
+{
+position: fixed;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 400px;
+padding: 50px;
+box-shadow: 0 5px 30px rgba(0,0,0,.30);
+background: #fff;
+visibility: hidden;
+opacity: 0;
+transition: 0.5s;
+}
+#popup1.active{
+top: 50%;
+visibility: visible;
+opacity: 1;
+transition: 0.5s;
+}
+
+.close1{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: -290px;
+	right: -410px;
+	/*top: -400px;
+	right: -410px;*/
+}
+.close1:hover{
+	cursor: pointer;
+}
+
+.footer{
+	margin-top : 45px;
+}

@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Trispace', sans-serif;
+}
+header{
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../images/adminIMG/bgadmin.jpg");
+background-size: cover;
+background-position: center;
+}
+.title{
+position: absolute;
+top: 40%;
+left:50%;
+height:40%;
+width:60%;
+transform: translate( -50%, -50%);
+text-align: center;
+}
+
+.title p{
+color:#fff;
+font-size: 28px;
+font-family:Arial;
+text-align: center;
+font-weight: bold;
+margin-right:30px;
+} 
+.title img{
+max-height: 100px;
+max-width:400px;
+}
+#a{
+max-height:100px;
+max-width:150px;
+/* margin-right:120px; */
+}	

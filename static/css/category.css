@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Noto+Sans+TC:wght@700&family=Oleo+Script:wght@400;700&family=Open+Sans&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  transition: 1.5s;
+}
+
+p{
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.circle-box{
+  position: absolute;
+  height: 655px;
+  width: 655px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/*.over{
+  position: absolute;
+  height: 610px;
+  width: 610px;
+  top: 17.5%;
+  left: 15%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+*/
+._svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+#svgCircle{
+  stroke-dasharray: 1885;
+  stroke-dashoffset: 1885;
+  transition: 1s;
+}
+
+._span{
+  position: absolute;
+  height: 59px;
+  width: 59px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+}
+
+ .cimg{
+ 	width: 40px;
+ 	height: 40px;
+ 	margin: 9.5px;
+ 	/*margin-left: 8px;*/
+ 	padding: auto;
+ }
+
+#step1{
+  right: 206px;
+  bottom: 17px;
+}
+
+#step2{
+  right: 535px;
+  bottom: 126px;
+}
+
+#step3{
+  right: 529px;
+  bottom: 487px;
+}
+
+#step4{
+  right: 202px;
+  bottom: 578px;
+}
+
+#step5{
+  right: 1px;
+  bottom: 304px;
+}
+
+
+.user-box p{
+  margin: 20px 0;
+  color #c0c0c0;
+  line-height: 25px;
+}
+
+.user-box{
+	width :440px;
+	position : absolute;
+	top: 150px;
+	left: 50%;
+	height: 400px;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #fff;
+	transition: 1s;
+}
+
+.mid-img{
+	border-radius: 50%;
+}
+
+.cat-head{
+	margin: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+.btn{
+    width: 120px;
+    height: 70px;
+    margin-top: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.btn :hover{
+  border-radius: 0px;
+}
+
+.user{
+	height: 700px;
+}
